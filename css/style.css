@@ -29,11 +29,17 @@ li{
   list-style: none;
 }
 
+p{
+  color: grey;
+  font-weight: lighter;
+}
+
 .btn{
   padding: 10px 20px;
   background-color: #7cbb02;
   border-radius: 5px;
   text-transform: uppercase;
+  color: white;
 }
 
 .btn-outline{
@@ -126,7 +132,7 @@ header a{
 
 .textarea a{
   display: inline-block;
-  transition: transform .3s;
+  transition: transform .8s;
 }
 
 .textarea a:hover {
@@ -137,6 +143,121 @@ header a{
 
 
 /* MAIN */
+
+.messaggio{
+  background-color: lightgrey;
+  padding: 50px;
+  text-align: center;
+}
+
+.messaggio h2{
+  margin-bottom: 15px;
+}
+
+.colonna3{
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 40px;
+}
+
+.colonna3 div {
+  height: 180px;
+  margin-bottom: 20px;
+}
+
+.colonna3 div img{
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.colonna3 h2{
+  color: #7cbb02;
+}
+
+.colonna3 hr{
+  width: 20%;
+  margin: 25px auto;
+}
+
+.colonna3 p{
+  line-height: 1.5;
+}
+
+.divider{
+  width: 90%;
+  margin: 20px auto;
+}
+
+.colonna2 {
+  width: 50%;
+  text-align: left;
+  padding: 80px;
+}
+
+
+
+.colonna2 h2{
+  font-size: 35px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-weight: 500;
+  padding-right: 50px;
+}
+
+.colonna2 p{
+  line-height: 1.6;
+  margin-bottom: 20px;
+  padding-right: 50px;
+}
+
+.colonna2 a{
+  font-weight: lighter;
+  color: #5586bc;
+}
+
+.conversione{
+  background-color: lightgrey;
+
+}
+
+.conversione .colonna2{
+  padding: 30px;
+  position: relative;
+}
+
+.conversione .colonna2 h2{
+  position: absolute;
+  top: 50%;
+}
+
+.conversione .colonna2 p{
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.conversione .colonna2 form{
+  display: inline-block;
+}
+
+.conversione .colonna2 form select {
+  background-color: lightgrey;
+  margin-top: 5px;
+  padding: 0 15px;
+  border: 0;
+  color: grey;
+}
+
+.conversione .colonna2 a{
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.allign-right{
+  text-align: right;
+}
+
+
 
 
 
