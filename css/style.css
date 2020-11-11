@@ -1,0 +1,57 @@
+/* GENERAL */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  width: 80%;
+}
+
+
+
+/* ------------------------------------- */
+
+
+/* HEADER */
+
+header a{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+/* ------------------------------------- */
+
+
+/* MAIN */
+
+
+
+
+/* ------------------------------------- */
+
+
+/* HELP */
+.help{
+  height: 30px;
+  color: white;
+  background-color: #7cbb02;
+  position: fixed;
+  bottom: 0;
+  left: 80%;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  border-radius: 5px 5px 0 0;
+}
+
+
+
+/* ------------------------------------- */
