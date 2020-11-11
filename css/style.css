@@ -10,8 +10,39 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.left{
+  float: left;
+}
+
 .container{
   width: 80%;
+  margin: auto;
+}
+
+li{
+  list-style: none;
+}
+
+.btn{
+  padding: 10px 20px;
+  background-color: #7cbb02;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.btn-outline{
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+}
+
+.btn-padding{
+  padding: 20px;
 }
 
 
@@ -21,12 +52,86 @@ body{
 
 /* HEADER */
 
+header{
+  height: 700px;
+  background-color: #0c325a;
+  background-image: url(img/background-header.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 110% 100%;
+}
+
+header li{
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 15px;
+  text-transform: uppercase;
+}
+
+header li:hover a{
+  font-weight:normal;
+}
+
+
 header a{
   color: white;
   text-decoration: none;
 }
 
+.header-top{
+  height: 60px;
+  padding-top: 10px;
+  font-weight: 300;
+}
 
+.logo{
+  width: 10%;
+  height: 60px;
+}
+
+.logo img{
+  margin-top: 5px;
+}
+
+.main{
+  width: 50%;
+  height: 60px;
+  text-align: center;
+}
+
+.secondary{
+  width: 40%;
+  height: 60px;
+  text-align: right;
+}
+
+.jumbotron{
+  height: 640px;
+  position: relative;
+}
+
+.textarea{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.textarea h1{
+  color: white;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.textarea a{
+  display: inline-block;
+  transition: transform .3s;
+}
+
+.textarea a:hover {
+  transform: scale(1.3);
+}
 
 /* ------------------------------------- */
 
